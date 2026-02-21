@@ -5,7 +5,8 @@
 
 Clone the repository
 
-```bash
+```
+### STEP 01- clone the existing repository
 git clone https://github.com/Tarun2025-dev/DoctorBot.git```
 
 
@@ -17,18 +18,18 @@ pip install -r requirements.txt
 
 ### Create a `.env` file in the root directory and add your Pinecone & Gemini credentials as follows:
 
-```ini
+```
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
-```bash
+```
 # run the following command to store embeddings to pinecone
 python store_index.py
 ```
 
-```bash
+```
 # Finally run the following command
 python app.py
 ```
